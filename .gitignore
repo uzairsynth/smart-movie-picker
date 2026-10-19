@@ -1,0 +1,41 @@
+# --- Personal app data (watched list + custom titles); created at runtime ---
+movie_picker_data.json
+movie_picker_data.json.bak
+*.bak
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Packaging / build output (e.g. PyInstaller) ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- Test, lint and type-check caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Secrets ---
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDEs ---
+.idea/
+.vscode/
